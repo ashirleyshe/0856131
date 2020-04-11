@@ -18,7 +18,7 @@ public class PriorityQueueTest {
     @Parameterized.Parameters
     public static Collection priority_queue() {
         List<int[][]> para = new ArrayList<int[][]>();
-        int[][] case1 = new int[][]{{ 0, 1, 2, 3, 4 }, { 3, 2, 0, 1, 4 },};
+        int[][] case1 = new int[][]{{ 0, 1, 2, 3, 5 }, { 3, 2, 0, 1, 4 },};
         int[][] case2 = new int[][]{{ 0, 1, 2, 3, 4 }, { 3, 0, 2, 4, 1 },};
         int[][] case3 = new int[][]{{ 5, 6, 7, 8, 9 }, { 9, 8, 7, 6, 5 },};
         int[][] case4 = new int[][]{{ 10, 11, 12, 13, 14 }, { 11, 13, 10, 14, 12 },};
